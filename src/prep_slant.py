@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
     seg_file = sys.argv[1]
     out_file = sys.argv[2]
-    level = 7 # 6 (32) or 7 (46) seem to be sweet spot (tractseg has 72)
+    level = 9 # 6 (32) or 7 (46) seem to be sweet spot (tractseg has 72)
     
     assert level >= 0 and level <= 12, 'Parameter level must be between 0 and 12 inclusive. Aborting.'
 
